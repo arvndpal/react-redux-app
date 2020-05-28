@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs12.13.1\\node.exe',
+1 verbose cli   'C:\\Users\\mukulSharma\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start:api'
+1 verbose cli ]
+2 info using npm@3.10.7
+3 info using node@v12.13.1
+4 verbose run-script [ 'prestart:api', 'start:api', 'poststart:api' ]
+5 info lifecycle ps-redux@~prestart:api: ps-redux@
+6 verbose lifecycle ps-redux@~prestart:api: unsafe-perm in lifecycle true
+7 verbose lifecycle ps-redux@~prestart:api: PATH: C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\mywork\pluralsiht\app\node_modules\.bin;C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\mywork\pluralsiht\app\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.2.1\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.2.1\bin;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MongoDB\Server\3.2\bin;C:\OpenSSL-Win64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\PostgreSQL\9.6\bin;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Microsoft Visual C++ Build Tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Python3.6\Scripts;C:\Program Files\Haskell Platform\8.2.1\mingw\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Users\mukulSharma\Desktop\anshul\maven\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152;C:\ProgramData\Oracle\Java\javapath;C:\Users\mukulSharma\Downloads\schemacrawler-14.19.01-distribution\_schemacrawler;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Python3.6;C:\Program Files\nodejs12.13.1\;C:\Users\mukulSharma\AppData\Roaming\cabal\bin;C:\bin\Haskell Stack;C:\Users\mukulSharma\algs4\bin;C:\Users\mukulSharma\algs4\java\bin;C:\Users\mukulSharma\Anaconda2;C:\Users\mukulSharma\Anaconda2\Scripts;C:\Users\mukulSharma\Anaconda2\Library\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\atom\bin;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\Yarn\bin;C:\Program Files\ArangoDB3 3.4.2\usr\bin;C:\Users\mukulSharma\AppData\Roaming\npm
+8 verbose lifecycle ps-redux@~prestart:api: CWD: C:\mywork\pluralsiht\app
+9 silly lifecycle ps-redux@~prestart:api: Args: [ '/d /s /c', 'node tools/createMockDb.js' ]
+10 silly lifecycle ps-redux@~prestart:api: Returned: code: 0  signal: null
+11 info lifecycle ps-redux@~start:api: ps-redux@
+12 verbose lifecycle ps-redux@~start:api: unsafe-perm in lifecycle true
+13 verbose lifecycle ps-redux@~start:api: PATH: C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\mywork\pluralsiht\app\node_modules\.bin;C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\mywork\pluralsiht\app\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.2.1\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.2.1\bin;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MongoDB\Server\3.2\bin;C:\OpenSSL-Win64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\PostgreSQL\9.6\bin;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Microsoft Visual C++ Build Tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Python3.6\Scripts;C:\Program Files\Haskell Platform\8.2.1\mingw\bin;C:\Program Files (x86)\Graphviz2.38\bin;C:\Users\mukulSharma\Desktop\anshul\maven\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152;C:\ProgramData\Oracle\Java\javapath;C:\Users\mukulSharma\Downloads\schemacrawler-14.19.01-distribution\_schemacrawler;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Python3.6;C:\Program Files\nodejs12.13.1\;C:\Users\mukulSharma\AppData\Roaming\cabal\bin;C:\bin\Haskell Stack;C:\Users\mukulSharma\algs4\bin;C:\Users\mukulSharma\algs4\java\bin;C:\Users\mukulSharma\Anaconda2;C:\Users\mukulSharma\Anaconda2\Scripts;C:\Users\mukulSharma\Anaconda2\Library\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\atom\bin;C:\Users\mukulSharma\AppData\Local\Microsoft\WindowsApps;C:\Users\mukulSharma\AppData\Local\Yarn\bin;C:\Program Files\ArangoDB3 3.4.2\usr\bin;C:\Users\mukulSharma\AppData\Roaming\npm
+14 verbose lifecycle ps-redux@~start:api: CWD: C:\mywork\pluralsiht\app
+15 silly lifecycle ps-redux@~start:api: Args: [ '/d /s /c', 'node tools/apiServer.js' ]
+16 verbose stack Error: kill ENOSYS
+16 verbose stack     at process.kill (internal/process/per_thread.js:189:13)
+16 verbose stack     at process.listener (C:\Users\mukulSharma\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+16 verbose stack     at process.emit (events.js:210:5)
+17 verbose cwd C:\mywork\pluralsiht\app
+18 error Windows_NT 10.0.18363
+19 error argv "C:\\Program Files\\nodejs12.13.1\\node.exe" "C:\\Users\\mukulSharma\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "start:api"
+20 error node v12.13.1
+21 error npm  v3.10.7
+22 error code ENOSYS
+23 error errno ENOSYS
+24 error syscall kill
+25 error kill ENOSYS
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]
