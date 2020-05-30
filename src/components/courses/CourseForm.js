@@ -12,7 +12,7 @@ const CourseForm = ({
   errors = {}
 }) => {
 
-  console.log("CourseForm course", course)
+  // console.log("CourseForm course", course)
   return (
     <form onSubmit={onSave}>
       <h2>{course.id ? "Edit" : "Add"} Course</h2>
